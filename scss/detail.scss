@@ -1,0 +1,21 @@
+.detail {
+    height: 100%;
+    .title {
+        text-align: center;
+    }
+    .details {
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        .col {
+            img {
+                height: 350px;
+                width: 550px;
+            }
+            p {
+                padding: 30px;
+                font-size: 25px;
+            }
+        }
+    }
+}

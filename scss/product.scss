@@ -1,0 +1,17 @@
+.products {
+    height: 100%;
+    .title {
+        text-align: center;
+    }
+    .product-imgs {
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        .col {
+            img {
+                height: 250px;
+                width: 250px;
+            }
+        }
+    }
+}

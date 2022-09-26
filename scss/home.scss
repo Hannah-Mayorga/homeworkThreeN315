@@ -1,0 +1,35 @@
+.home {
+    height: 100%;
+    .title {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        padding: 30px;
+    }
+    .banner {
+        height: 500px;
+        width: 100%;
+        background-image: url(../images/bakery-hero1500x600-2x-v2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .desc-txt {
+        height: 100%;
+        display: flex;
+        padding: 30px;
+        font-size: 20px;
+        margin: 0 auto;
+    }
+    .home-btn {
+        width: 200px;
+        height: 50px;
+        background-color: lightcoral;
+        color: white;
+        font-style: italic;
+        margin: 0 auto;
+        border-radius: 5%;
+        padding: 10px;
+        text-align: center;
+    }
+}
